@@ -1,0 +1,592 @@
+/* Start Body */
+
+body {
+    background: rgb(233, 233, 233);
+}
+
+.container-body {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin:10px auto;
+    width: 1200px;
+    padding: 40px;
+    font-family: comic sans ms;
+    background: rgb(255, 255, 255);
+    margin-bottom: -24px;
+}
+
+
+
+/* End Body */
+
+
+/* Start Navbar */
+
+.navbar-brand {
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.collapse .navbar-nav {
+    margin-right: 300px;
+}
+
+.collapse .navbar-nav li {
+    font-size: 20px;
+    margin-right: 6px;
+}
+
+.navbar .container-fluid .navbar-nav .nav-item {
+    padding: 2px 9px;
+    border-radius: 10px;
+    transition: all .1s;
+}
+
+.navbar .container-fluid .navbar-nav .nav-item:hover {
+    background-color: rgb(49, 49, 110);
+    transition: all .1s;
+}
+
+/* End Navbar */
+
+
+/* Start Content  */
+
+
+/* Start Slider */
+
+.carousel-item {
+    height: 830px;
+    font-family: comic sans ms;
+}
+
+.carousel-item img {
+    margin-top: 68px;
+    color: black;
+    /*filter: blur(5px);
+    -webkit-filter: blur(5px);*/
+}
+
+.carousel-caption {
+    margin-bottom: 260px;
+}
+
+.carousel-caption h5 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.carousel-caption p {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+/* End Slider */
+
+
+/* Start Title */
+
+.title {
+    text-align: center;
+}
+
+.title h1{
+    font-size: 40px;
+}
+
+/* End Title */
+
+
+/* Start Jenis Genre Novel */
+
+.jenis {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.jenis h3 {
+    font-size: 30px;
+}
+
+.garis-jenis {
+    margin: auto;
+    width: 200px;
+}
+
+/* End Jenis Genre Novel */
+
+/* Start Card Box */
+
+.card-box {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card {
+    justify-content: center;
+    margin: 40px;
+    margin-bottom: 25px;
+}
+
+.novel-card {
+    margin-bottom: -260px;
+}
+
+
+
+.novel-card .product-slider-button .carousel-control-prev {
+    background: black;
+    width: 36px;
+    height: 35px;
+    margin-top: 250px;
+    margin-left: -15px;
+}
+
+
+
+.novel-card .product-slider-button .carousel-control-next {
+    background: black;
+    width: 36px;
+    height: 35px;
+    margin-top: 250px;
+    margin-right: -15px;
+}
+
+.img-slider {
+    width: 27%;
+    margin: 33px;
+    border-radius: 30px;
+}
+
+.carousel-inner .product-slider .img-slider {
+    text-align: center;
+}
+
+.carousel-item .img-slider {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.carousel-inner .carousel-item .img-slider:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+
+
+/* End Card Box */
+
+/* Start Garis Pemisah */
+
+.garis-pemisah {
+    margin: auto;
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+/* End Garis Pemisah */
+
+
+/* Start Footer */
+
+.container {
+    background: white;
+    width: 1200px;
+    margin-top: 50px;
+    
+}
+
+/* End Footer*/
+
+
+/* Novel Page */
+
+
+/* Judul Novel Page */
+.judul-novel {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.judul-novel h2 {
+    font-size: 40px;
+}
+
+.judul-novel img {
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Genre Novel Page */
+.genre {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+/* Sinopsis Novel Page */
+.sinopsis {
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.sinopsis h5 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.sinopsis p {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.sinopsis {
+    text-align: center;
+}
+
+
+.list {
+    text-align: center;
+}
+
+
+
+.list-chapter {
+    text-align: center;
+}
+
+.volume h3 {
+    padding-bottom: 15px;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.volume img {
+    width: 30%;
+}
+
+.chapter-volume ul {
+    list-style-type: none;
+    font-size: 23px;
+}
+
+.chapter-volume ul li {
+    line-height: 46px;
+    padding-right: 40px;
+}
+
+.chapter-volume ul li a {
+    text-decoration: none;
+}
+
+.chapter-volume ul li .chapter:hover {
+    color: aqua;
+}
+
+
+/* Scroll Chapter */
+.scroll {
+    background: rgb(209, 234, 255);
+    width: 200px;
+    margin: 10% auto;
+    padding: 20px 60px;
+}
+
+.scroll-chapter {
+    background: rgb(206, 206, 206);
+    width: 200px;
+    height: 120px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.chapter-scroll {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.chapter-scroll ul {
+    list-style-type: none;
+}
+
+.scroll-pemisah {
+    width: 103px;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Blm Isi Teks */
+.chapter-blm {
+    pointer-events: none; 
+    cursor: default;
+    text-decoration: none; 
+    color: black;
+}
+
+
+/* Text Novel */
+.text-novel {
+    font-size: 23px;
+    line-height: 45px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.text-novel-2 br{
+    display: none;
+}
+
+.text-novel-2 {
+    font-size: 23px;
+    line-height: 45px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+/* Ilustrasi Novel */
+.ilustrasi-hp {
+    width: 65%;
+    padding-bottom: 10px;
+}
+
+.ilustrasi-color {
+    width: 86%;
+    padding-bottom: 10px;
+}
+
+
+/* Tombol Previous Next */
+
+.number-chapter{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.previous-next {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.previous-next a {
+    text-decoration: none;
+}
+
+.previous-next-blm {
+    pointer-events: none; 
+    cursor: default;
+    text-decoration: none; 
+    color: black;
+}
+
+.previous-next a:hover {
+    color: rgb(4, 4, 190);
+}
+
+
+/* Start List Genre Page */
+
+.container-list {
+    margin-left: 360px;
+    width: 840px;
+    padding: 40px;
+    font-family: comic sans ms;
+    background: rgb(255, 255, 255);
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.container-side {
+    float: right;
+    width: 330px;
+    padding: 10px;
+    font-family: comic sans ms;
+    background: rgb(255, 255, 255);
+    margin-top: -2660px;
+    margin-left: 1220px;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.container-side-2 {
+    float: right;
+    width: 330px;
+    padding: 10px;
+    font-family: comic sans ms;
+    background: rgb(255, 255, 255);
+    margin-top: -1500px;
+    margin-left: 1220px;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.container-side-3 {
+    float: right;
+    width: 330px;
+    padding: 10px;
+    font-family: comic sans ms;
+    background: rgb(255, 255, 255);
+    margin-top: -880px;
+    margin-left: 1220px;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.content-side p{
+    line-height: 12px;
+    font-size: 15px;
+}
+
+.card {
+    margin: auto;
+}
+
+.link-side {
+    color: rgb(74, 74, 206);
+    text-decoration: none;
+}
+
+
+
+
+/* End List Genre Page */
+
+/* End Content */
+
+
+
+
+
+
+
+
+/* Responsive */
+
+
+/* Responsive Mobile */
+
+@media only screen and (max-width:600px)
+    {
+        /* Container Mobile */
+
+        .container-body {
+            width: 100%;
+            border-radius: 0px;
+            padding: 20px;
+        }
+
+        /* Navbar Mobile */
+        
+        .navbar-brand {
+            font-size: 125%;
+            margin-left: 0px;
+        }
+
+        .collapse .navbar-nav li {
+            font-size: 16px;
+        }
+
+        .collapse .navbar-nav .dropdown-menu .dropdown-item {
+            font-size: 70%;
+        }
+
+
+        /* Carousel Mobile */
+
+        .carousel-item {
+            height: 40%;
+        }
+
+        .carousel-item img {
+            height: 300px;
+        }
+        
+
+        /* Title Mobile */
+        .title h1 {
+            font-size: 180%;
+        }
+
+
+        /* Jenis Genre Moblle */
+        .jenis h3 {
+            font-size: 160%;
+        }
+
+
+        /* card box mobile */
+        .img-slider {
+            width: 30%;
+            margin: 4px;
+            margin-bottom: 300px;
+            border-radius: 10px;
+        }
+
+        .novel-card .product-slider-button .carousel-control-prev {
+            width: 27px;
+            height: 27px;
+            margin-top: 200px;
+            margin-left: -15px;
+        }
+
+        .novel-card .product-slider-button .carousel-control-next {
+            width: 27px;
+            height: 27px;
+            margin-top: 200px;
+            margin-left: -15px;
+        }
+
+
+        /* Footer Mobile */
+
+        /* Novel Page Mobile */
+        
+        /* .judul-novel h2 {
+            font-size: 150%;
+        }
+
+        .judul-novel img {
+            width: 40%;
+        }
+
+        .genre {
+            font-size: 120%;
+        }
+
+        .card p {
+            font-size: 80%;
+        }
+
+        .table {
+            width: 50%;
+            margin: 10px auto;
+        }
+
+        .list-vol {
+            font-size: 150%;
+        }
+
+        .cover-novel {
+            width: 100%;
+        }
+
+        .container {
+            width: 1200px;
+        } */
+
+
+
+    }
